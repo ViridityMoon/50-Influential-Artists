@@ -207,12 +207,12 @@ const artists = [
 
 (1) Name of the first artist in the array
 (2) Bio of the third artist in the array */
-console.log(artists[0].name)
-console.log(artists[2].bio)
+// console.log(artists[0].name)
+// console.log(artists[2].bio)
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
-artists[8].name = 'Vincent Van Gogh'
-console.log(artists[8].name)
+// artists[8].name = 'Vincent Van Gogh'
+// console.log(artists[8].name)
 
 /* Task 3: Create a function called `getArtistByIndex` that takes two arguments:
  *     (1) artists array
@@ -222,14 +222,14 @@ console.log(artists[8].name)
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getArtistByIndex(artists, index) {
+// function getArtistByIndex(artists, index) {
 
-  let name = artists[index].name;
+//   let name = artists[index].name;
 
-  return `The artist at index ${index} is ${name}.`
-}
+//   return `The artist at index ${index} is ${name}.`
+// }
 
-console.log(getArtistByIndex(artists, 7))
+// console.log(getArtistByIndex(artists, 7))
   
   /**
 
@@ -242,33 +242,33 @@ console.log(getArtistByIndex(artists, 7))
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function removeArtist(array, index) {
-  for (i=0; i <= array.length-1; i++) {
-      if (index === array[index].id){
-        return array.splice(index, index)
+// function removeArtist(array, index) {
+//   for (i=0; i <= array.length-1; i++) {
+//       if (index === array[index].id){
+//         return array.splice(index, index)
         
-      }
-  }
-}
-console.log(removeArtist(artists, 1))
+//       }
+//   }
+// }
+// console.log(removeArtist(artists, 1))
 
-console.log(artists[1].name)
+// console.log(artists[1].name)
 
   /**
 
 
 /* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(array){
-  let experiencedArtists = [];
-  for (let i = 0; i <= array.length - 1; i++){
-    if (array[i].paintings > 100){
-      experiencedArtists.push(array[i].name)
-    }
-  } 
-  return experiencedArtists; 
-}
-console.log(lotsOfArt(artists))
+// function lotsOfArt(array){
+//   let experiencedArtists = [];
+//   for (let i = 0; i <= array.length - 1; i++){
+//     if (array[i].paintings > 100){
+//       experiencedArtists.push(array[i].name)
+//     }
+//   } 
+//   return experiencedArtists; 
+// }
+// console.log(lotsOfArt(artists))
 
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
 
@@ -279,13 +279,25 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(id, name, years, genre, nationality, bio){
+// function addArtist(array){
+
+//     let newObject = {
+//       id: array[0],
+//       name: array[1],
+//       years: array[2],
+//       genre: array[3],
+//       nationality: array[4],
+//       bio: array[5],
+//     }
+//     artists.push(newObject)
   
-    
+  
+// }
 
-}
 
+// console.log(addArtist([20, "Noah", "1999 - 2020", "Web Design", "American", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"]))
 
+// console.log(artists[20])
 
 
 
