@@ -86,3 +86,106 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+body {
+  font-size: 62.5%;
+  height: auto;
+}
+header {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+  }
+}
+header nav {
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  header nav {
+    width: 100%;
+  }
+}
+header nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #333333;
+}
+@media (max-width: 500px) {
+  header nav a {
+    font-size: 1.5rem;
+  }
+}
+header .home {
+  font-weight: 600;
+}
+.title-container {
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  background-image: url(../assets/home.png);
+  margin-bottom: 4%;
+  padding-bottom: 20px;
+}
+.title-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  font-size: 4.5rem;
+  text-align: center;
+  color: white;
+}
+.title-container button {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  width: 15%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  font-size: 1.5rem;
+  margin-top: 3%;
+  color: #4d4d4d;
+}
+.artists-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  border-top: 1px solid #9c9c9c;
+  padding-top: 1vh;
+}
+.artists-container .artist {
+  width: 40%;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  margin: 5%;
+  flex-direction: column;
+}
+.artists-container .artist a {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5%;
+}
+.artists-container .artist div {
+  font-size: 1.25rem;
+  text-align: center;
+}
+img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+}

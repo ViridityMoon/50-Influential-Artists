@@ -1,0 +1,54 @@
+.title-container{
+    width:90%;
+    height: 60vh;
+    .flex(center, center); 
+    .column;
+    margin: auto;
+    background-image: url(../assets/home.png);
+    margin-bottom: 4%;
+    padding-bottom: 20px;
+    @media @mobile{
+        
+    }
+
+
+    h1{
+        .flex(center, auto);
+        font-size: 4.5rem;
+        text-align: center;
+        color: white;
+    }
+    button{
+        .custom-btn(15%, 8%);
+    }
+}
+
+.artists-container{
+    width:90%;
+    margin: auto;
+    .flex(center, auto);
+    border-top: 1px solid rgb(156, 156, 156);
+    padding-top: 1vh;
+    .artist{
+        width: 40%;
+        .flex(auto, center);
+        margin: 5%;
+        .column;
+        a{
+            font-size: 2rem;
+            text-align: center;
+            margin: 5%;
+        }
+        div{
+            font-size: 1.25rem;
+            text-align: center;
+        }
+    }
+}
+
+img{
+    width:80%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
