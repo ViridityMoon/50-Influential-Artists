@@ -26,18 +26,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is the use of a seperate program that improves upon the sytax of an existing language for ease of use, practicality, etc.
 
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+Variables, I don't particularly struggle with this concept.
 
 3. How would you explain the concept of a variable to someone new to programming?
 
+Variables are just pieces of code, you can use but quicker and easier, and they're reusable.
 
 4. What is the purpose of using functions in code?
 
+To actually make things happen.
 
 5. What is a JSON data?
-
+Object where every key value pair are strings.
 
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
@@ -90,7 +94,7 @@ _You will know everything is working properly when you see the styles enabled fo
 * [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins.
 * [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
 * [x] Use at least 2 parameters to create your button.
-* [ ] Add responsive breakpoints to your code for 500px such that your styles match the mobile design file.
+* [x] Add responsive breakpoints to your code for 500px such that your styles match the mobile design file.
 
 ### Task 2b: Minimum Viable Product - JavaScript
 

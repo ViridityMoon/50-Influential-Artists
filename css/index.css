@@ -120,6 +120,7 @@ header nav a {
 @media (max-width: 500px) {
   header nav a {
     font-size: 1.5rem;
+    margin: 1%;
   }
 }
 header .home {
@@ -137,6 +138,11 @@ header .home {
   margin-bottom: 4%;
   padding-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .title-container {
+    width: 100%;
+  }
+}
 .title-container h1 {
   display: flex;
   justify-content: center;
@@ -144,6 +150,11 @@ header .home {
   font-size: 4.5rem;
   text-align: center;
   color: white;
+}
+@media (max-width: 500px) {
+  .title-container h1 {
+    font-size: 3rem;
+  }
 }
 .title-container button {
   background-color: #f3f3f3;
@@ -157,6 +168,11 @@ header .home {
   margin-top: 3%;
   color: #4d4d4d;
 }
+@media (max-width: 500px) {
+  .title-container button {
+    width: 35%;
+  }
+}
 .artists-container {
   width: 90%;
   margin: auto;
@@ -166,6 +182,15 @@ header .home {
   border-top: 1px solid #9c9c9c;
   padding-top: 1vh;
 }
+@media (max-width: 500px) {
+  .artists-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
 .artists-container .artist {
   width: 40%;
   display: flex;
@@ -174,18 +199,42 @@ header .home {
   margin: 5%;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  .artists-container .artist {
+    width: 100%;
+  }
+}
 .artists-container .artist a {
   font-size: 2rem;
   text-align: center;
   margin: 5%;
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  .artists-container .artist a {
+    width: 55%;
+    font-size: 1.1rem;
+  }
 }
 .artists-container .artist div {
   font-size: 1.25rem;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .artists-container .artist div {
+    width: 70%;
+    font-size: 0.75rem;
+  }
 }
 img {
   width: 80%;
   height: 50%;
   object-fit: cover;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  img {
+    width: 50%;
+  }
 }
