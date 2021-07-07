@@ -1,4 +1,241 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  font-size: 62.5%;
+  height: auto;
+}
+header {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+  }
+}
+header nav {
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  header nav {
+    width: 100%;
+  }
+}
+header nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #333333;
+}
+@media (max-width: 500px) {
+  header nav a {
+    font-size: 1.5rem;
+    margin: 1%;
+  }
+}
+header .home {
+  font-weight: 600;
+}
+.title-container {
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  background-image: url(../assets/home.png);
+  margin-bottom: 4%;
+  padding-bottom: 20px;
+  background-size: cover;
+}
+@media (max-width: 500px) {
+  .title-container {
+    width: 100%;
+  }
+}
+.title-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  font-size: 4.5rem;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 500px) {
+  .title-container h1 {
+    font-size: 3rem;
+  }
+}
+.title-container button {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  width: 15%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  font-size: 1.5rem;
+  margin-top: 3%;
+  color: #4d4d4d;
+}
+@media (max-width: 500px) {
+  .title-container button {
+    width: 35%;
+  }
+}
+.artists-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  border-top: 1px solid #9c9c9c;
+  padding-top: 1vh;
+}
+@media (max-width: 500px) {
+  .artists-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+.artists-container .artist {
+  width: 40%;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  margin: 5%;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .artists-container .artist {
+    width: 100%;
+  }
+}
+.artists-container .artist a {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5%;
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  .artists-container .artist a {
+    width: 55%;
+    font-size: 1.1rem;
+  }
+}
+.artists-container .artist div {
+  font-size: 1.25rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .artists-container .artist div {
+    width: 70%;
+    font-size: 0.75rem;
+  }
+}
+img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+@media (max-width: 500px) {
+  img {
+    width: 50%;
+  }
+}
